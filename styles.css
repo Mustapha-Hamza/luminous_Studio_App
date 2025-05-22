@@ -578,7 +578,11 @@ form textarea {
   }
 
   .home {
-    height: 50vh;
+    height: 100vh; /* or adjust based on layout */
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .service-content {
